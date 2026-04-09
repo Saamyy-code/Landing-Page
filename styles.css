@@ -1,0 +1,82 @@
+header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-family: roboto, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: #1f2937;
+    padding: 60px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 48px;
+}
+
+.hero .arap{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+.cards-section{
+    padding: 20px;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .chris{
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.Action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.Action button{
+    background-color: #3882f6;
+    color: white;
+    border: white solid 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
